@@ -1,0 +1,64 @@
+/* defições padrões */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* melhor deixar assim pq pega tema escuro pra todas as paginas*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #121212;
+    color: #ffffff;
+}
+/* inicio da pagina de login */ 
+#login-container h2 {
+    margin-bottom: 20px;
+}
+
+#login-container {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: #121212;
+}
+
+#login-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;   
+}
+#login-btn:hover{
+    background-color: #3105e2c2;
+    color: #fff;
+    transition: 0.3s;
+}
+/* fim da pagina de login */
